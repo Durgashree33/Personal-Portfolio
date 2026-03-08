@@ -1,0 +1,103 @@
+/* ===== Normal Styles (All Screens) ===== */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fdf6e3;
+}
+
+nav {
+    background-color: black;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+.content {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.container {
+    width: 85%;
+    margin: 40px auto;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.content h1 {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.box {
+    width: 320px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    text-align: left;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.2);
+}
+
+.box h3 {
+    margin-top: 0;
+    color: #2c3e50;
+}
+
+.box p {
+    line-height: 1.6;
+    font-size: 14px;
+}
+
+.box b {
+    color: #333;
+}
+
+
+/* Mobile Only Styles*/
+
+@media (max-width: 768px) {
+
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box {
+        width: 90%;
+    }
+
+    .content {
+        margin-top: 20px;
+        padding: 0 10px;
+    }
+
+    img {
+        max-width: 90%;
+        height: auto;
+    }
+}

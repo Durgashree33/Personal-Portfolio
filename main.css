@@ -1,0 +1,102 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial;
+}
+
+body{
+background:#f4f4f4;
+color:#333;
+}
+
+.container{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:15px 10%;
+background:#111;
+color:white;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+}
+
+nav ul li{
+margin-left:20px;
+}
+
+nav ul li a{
+color:white;
+text-decoration:none;
+}
+
+#menuBtn{
+display:none;
+background:none;
+border:none;
+font-size:22px;
+color:white;
+}
+
+.hero{
+text-align:center;
+padding:80px 20px;
+background:#2563eb;
+color:white;
+}
+
+.hero button{
+margin-top:15px;
+padding:10px 20px;
+border:none;
+background:white;
+color:#2563eb;
+font-weight:bold;
+cursor:pointer;
+}
+
+.section{
+padding:60px 10%;
+text-align:center;
+}
+
+.skills{
+display:flex;
+justify-content:center;
+gap:20px;
+flex-wrap:wrap;
+margin-top:20px;
+}
+
+.skills div{
+background:white;
+padding:10px 20px;
+border-radius:6px;
+box-shadow:0 2px 5px rgba(0,0,0,0.1);
+}
+
+.projects{
+display:flex;
+gap:20px;
+justify-content:center;
+flex-wrap:wrap;
+margin-top:20px;
+}
+
+.card{
+background:white;
+padding:20px;
+width:250px;
+border-radius:8px;
+box-shadow:0 3px 10px rgba(0,0,0,0.1);
+}
+
+footer{
+background:#111;
+color:white;
+text-align:center;
+padding:15px;
+}
