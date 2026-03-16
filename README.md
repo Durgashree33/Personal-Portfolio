@@ -1,6 +1,6 @@
-#  Durgashree | Personal Portfolio
+#  Durga shree | Personal Portfolio
 
-Hi, I'm **Durgashree** 👋  
+Hi, I'm **Durga shree** 👋  
 A passionate beginner web developer creating responsive and interactive websites using HTML, CSS, and JavaScript.
 
 🔗 **Live Website:**  
